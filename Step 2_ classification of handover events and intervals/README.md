@@ -48,7 +48,9 @@ files_grouping*.py files will also print the overlapped time lengths of the file
 
 
 #============================Error handling and other information=============================
+
 When opening files, there may be trash files .~lock.* generated. It is needed to delete them. 
+
 在 Phase 1 中 同一個手機 UL DL 是使用不同的port，而在 server 上開 tcpdump 時有針對不同 port 儲存成不同 pcap 檔； 手機的話則沒有做這件事，所以 UL DL 會在同一個檔案上，需要額外寫判斷式區隔
 
 ![alt text](https://github.com/ltshandsome/handover_statistics/blob/main/packet%20capture.png?raw=true)
